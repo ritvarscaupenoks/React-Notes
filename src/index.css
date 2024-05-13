@@ -76,7 +76,7 @@ input[type="text"] {
   border: 2px solid hsl(0, 0%, 80%, 0.5);
   border-radius: 5px;
   margin-top: 10px;
-  width: 50%;
+  width: 42%;
 }
 
 input[type="text"]:focus {
@@ -109,7 +109,11 @@ li {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  text-align: left;
+  justify-content: center;
+  text-align: left; 
+  width: 60%;
+  margin-left: auto; 
+  margin-right: auto;
 }
 .text{
   flex:1;
