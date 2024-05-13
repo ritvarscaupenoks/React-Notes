@@ -5,9 +5,112 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #171717;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.todo-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #FF0080;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-btn {
+  background-color: hsl(125, 47%, 54%);
+  margin-left: 10px;
+}
+
+.add-btn:hover {
+  background-color: hsl(125, 47%, 44%)
+}
+
+.delete-btn {
+  background-color: hsl(0, 100%, 50%);
+  margin-right: 10px;
+}
+
+.delete-btn:hover {
+  background-color: hsl(0, 100%, 40%)
+}
+
+.edit-btn {
+  background-color: hsl(210, 100%, 50%);
+}
+
+.edit-btn:hover {
+  background-color: hsl(210, 100%, 40%)
+}
+
+.save-btn {
+  background-color: hsl(125, 47%, 54%);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.save-btn:hover {
+  background-color: hsl(125, 47%, 44%)
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid hsl(0, 0%, 80%, 0.8);
+}
+.edit-input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+.edit-input[type="text"]:focus {
+  outline: none;
+  border: 2px solid hsl(0, 0%, 80%, 0.8);
+}
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.text{
+  flex:1;
 }
